@@ -16,6 +16,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         backgroundColor: Colors.black,
         body: Center(
@@ -28,7 +29,6 @@ class _MyAppState extends State<MyApp> {
                 color: switcher ? Colors.yellow : Colors.grey,
                 size: 100,
               ),
-
               MaterialButton(
                 onPressed: () {
                   setState(() {
@@ -37,7 +37,7 @@ class _MyAppState extends State<MyApp> {
                 },
                 color: switcher ? Colors.red : Colors.green,
                 child: Text(
-                  'On',
+                  switcher ? 'OFF' : 'ON',
                   style: TextStyle(
                     fontSize: 30,
                     fontWeight: FontWeight.bold,
