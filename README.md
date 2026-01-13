@@ -1,16 +1,29 @@
-# flash_light
+# flash_light 🔦
 
-A new Flutter project.
+A simple Flutter application that simulates a flashlight ON/OFF toggle with a clean UI.
 
-## Getting Started
+## 📱 App Demo
+https://github.com/user-attachments/assets/3b0b2021-1232-46ba-975f-2bd87285fd77
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
+- Flashlight ON / OFF toggle
+- Simple and minimal UI
+- Visual state change using colors and icons
+- Smooth interaction using setState
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Technologies Used
+- Flutter
+- Dart
+- Material Design
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🧠 Concepts Used
+- StatefulWidget
+- setState for state management
+- Conditional rendering
+- Basic UI layout with Column & Icon
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📦 Getting Started
+This project is a Flutter application.
+
+For help getting started with Flutter development, view the  
+[online documentation](https://docs.flutter.dev/).
